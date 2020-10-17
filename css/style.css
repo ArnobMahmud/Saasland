@@ -52,3 +52,12 @@ header p{
 .image{
     max-width: 100%;
 }
+
+.box a{
+    text-decoration: none;
+    background-color: #7F56F5;
+    padding:10px;
+    color:white;
+    display :inline-block;
+    margin-top:10px;
+}
