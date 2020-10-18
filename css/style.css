@@ -1,66 +1,81 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-h1, h2, p{
+* {
     margin: 0;
-    font-family: 'Commissioner', sans-serif;
-}
-
-header{
-    background-color: #7F56F5;
+    padding: 0;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* <============= HEADER START ============> */
+  header {
+    background-color: #7f56f5;
+    text-align: center;
+    color: white;
     padding: 100px;
-}
-
-header h1{
-    text-align: center;
-    color: white;
-    font-family: 'Commissioner', sans-serif;
-}
-header p{
-    margin-top: 30px;
-    text-align: center;
-    line-height: 20px;
-    color: white;
-    font-family: 'Commissioner', sans-serif;
-}
-
-.container{
+  }
+  header h1 {
+    margin-bottom: 20px;
+  }
+  header P {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* <============= HEADER END ============> */
+  /* <============= CONTAINER START ============> */
+  .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-}
-
-.box{
+  }
+  
+  .box {
     width: 50%;
     float: left;
+    padding: 70px 46px;
     box-sizing: border-box;
-    padding: 43px 84px;
-}
-
-.box h2{
-    margin-bottom: 10px;
-    color: #7F56F5;
-}
-
-.box p {
-    color : #343232cf;
-    line-height :25px;
-}
-.image{
-    max-width: 100%;
-}
-
-.box a{
+  }
+  
+  .box h2{
+      margin-bottom: 15px;
+      margin-top: 10px;
+      color: #7f56f5;
+  }
+  
+  .box p{
+      color: rgb(66, 63, 63);
+      line-height: 25px;
+      font-size: 14px;
+  }
+  
+  .image{
+      max-width: 100%;
+  }
+  
+  .box a {
     text-decoration: none;
-    background-color: #7F56F5;
-    padding:10px;
-    color:white;
-    display :inline-block;
-    margin-top:10px;
-    border-radius : 5px;
-    font-family: 'Commissioner', sans-serif;
-    font-weight :500;
-}
+    padding: 10px;
+    background-color: #7f56f5;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* <============= CONTAINER END ============> */
