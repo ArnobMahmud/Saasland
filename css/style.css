@@ -118,14 +118,16 @@ header P {
 /* <============= CONTAINER END ============> */
 /* <============= FOOTER START ============> */
 footer {
-  padding-top: 20px;
-  background-color: #cac2e08f;
+  margin-top: 137px;
+  padding-top: 120px;
+  background-color: #f5f5fa;
 }
 
 .footer-content {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  justify-content: flex-end;
 }
 
 .col-1 {
@@ -144,20 +146,20 @@ footer a {
   color: rgb(9, 10, 70);
   font-size: 19px;
   font-weight: 400;
+  line-height: 3;
 }
 footer p {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.8;
   padding-top: 10px;
 }
 
-footer ul :hover{
+footer ul :hover {
   color: brown;
-
 }
 
 .col-padding {
-  padding: 20px;
+  padding: 27px;
 }
 
 .col-2-content ul {
