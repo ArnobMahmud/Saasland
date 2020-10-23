@@ -1,81 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a{
-    text-decoration: none;
-  }
-  
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  /* <============= HEADER START ============> */
-  header {
-    background-color: #7f56f5;
-    text-align: center;
-    color: white;
-    padding: 100px;
-  }
-  header h1 {
-    margin-bottom: 20px;
-  }
-  header P {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  /* <============= HEADER END ============> */
-  /* <============= CONTAINER START ============> */
-  .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-  }
-  
-  .box {
-    width: 50%;
-    float: left;
-    padding: 70px 46px;
-    box-sizing: border-box;
-  }
-  
-  .box h2{
-      margin-bottom: 15px;
-      margin-top: 10px;
-      color: #7f56f5;
-  }
-  
-  .box p{
-      color: rgb(66, 63, 63);
-      line-height: 25px;
-      font-size: 14px;
-  }
-  
-  .image{
-      max-width: 100%;
-  }
-  
-  .box a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: #7f56f5;
-    display: inline-block;
-    margin-top: 10px;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  /* <============= CONTAINER END ============> */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* <============= HEADER START ============> */
+header {
+  background-color: #7f56f5;
+  text-align: center;
+  color: white;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo{
+  width: 20%;
+}
+
+nav{
+  width: 80%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+nav ul li :hover{
+  color: rgb(175, 64, 64);
+}
+
+nav ul li a{
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 22px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+header h1 {
+  margin-bottom: 20px;
+}
+header P {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* <============= HEADER END ============> */
+/* <============= CONTAINER START ============> */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.box {
+  width: 50%;
+  float: left;
+  padding: 70px 46px;
+  box-sizing: border-box;
+}
+
+.box h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  color: #7f56f5;
+}
+
+.box p {
+  color: rgb(66, 63, 63);
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.box a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #7f56f5;
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* <============= CONTAINER END ============> */
