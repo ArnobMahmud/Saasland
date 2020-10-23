@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +10,8 @@ a {
   color: white;
 }
 
-ul,ol{
+ul,
+ol {
   list-style: none;
 }
 
@@ -25,7 +26,14 @@ header {
   color: white;
 }
 
-.menu{
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.menu {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
@@ -33,35 +41,36 @@ header {
   padding-top: 20px;
 }
 
-.logo{
+.logo {
   width: 20%;
 }
 
-nav{
+nav {
   width: 80%;
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
 }
 
-nav ul li :hover{
+nav ul li :hover {
   color: rgb(175, 64, 64);
 }
 
-nav ul li a{
+nav ul li a {
   text-transform: uppercase;
   padding: 30px;
   font-size: 22px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.content{
+.content {
   padding-top: 150px;
   padding-bottom: 200px;
 }
+
 header h1 {
   margin-bottom: 20px;
 }
@@ -71,12 +80,6 @@ header P {
 }
 /* <============= HEADER END ============> */
 /* <============= CONTAINER START ============> */
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-}
 
 .box {
   width: 50%;
@@ -89,12 +92,13 @@ header P {
   margin-bottom: 15px;
   margin-top: 10px;
   color: #7f56f5;
+  font-size: 28px;
 }
 
 .box p {
   color: rgb(66, 63, 63);
-  line-height: 25px;
-  font-size: 14px;
+  line-height: 37px;
+  font-size: 21px;
 }
 
 .image {
@@ -112,3 +116,58 @@ header P {
 }
 
 /* <============= CONTAINER END ============> */
+/* <============= FOOTER START ============> */
+footer {
+  padding-top: 20px;
+  background-color: #cac2e08f;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.col-1 {
+  width: 25%;
+}
+.col-2 {
+  width: 25%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 25%;
+}
+footer a {
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+}
+footer p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+footer ul :hover{
+  color: brown;
+
+}
+
+.col-padding {
+  padding: 20px;
+}
+
+.col-2-content ul {
+  line-height: 2;
+  font-size: 18px;
+}
+.col-3-content ul {
+  line-height: 2;
+  font-size: 18px;
+}
+.col-4-content ul {
+  line-height: 2;
+  font-size: 18px;
+}
