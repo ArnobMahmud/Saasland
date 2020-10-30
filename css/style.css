@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -moz-box-sizing: border-box ;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
@@ -23,14 +23,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 /* <============= HEADER START ============> */
-header {
-  background-color: #7f56f5;
-  text-align: center;
-  color: white;
-}
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -38,12 +31,14 @@ header {
   overflow: hidden;
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
+.align-center {
   align-items: center;
-  padding-top: 20px;
+}
+
+header {
+  background-color: #7f56f5;
+  text-align: center;
+  color: white;
 }
 
 .logo {
@@ -86,7 +81,8 @@ header P {
   line-height: 30px;
 }
 /* <============= HEADER END ============> */
-/* <============= CONTAINER START ============> */
+
+/* <=========== SECTION START ==========> */
 
 .box {
   width: 50%;
@@ -126,7 +122,9 @@ header P {
   flex-wrap: wrap;
 }
 
-/* <============= CONTAINER END ============> */
+/* <============= SECTION END ============> */
+
+
 /* <============= FOOTER START ============> */
 footer {
   margin-top: 137px;
@@ -182,3 +180,5 @@ footer ul :hover {
   line-height: 2;
   font-size: 18px;
 }
+
+/* <============= FOOTER END ============> */
