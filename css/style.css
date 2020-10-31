@@ -124,7 +124,6 @@ header P {
 
 /* <============= SECTION END ============> */
 
-
 /* <============= FOOTER START ============> */
 footer {
   margin-top: 137px;
@@ -182,3 +181,56 @@ footer ul :hover {
 }
 
 /* <============= FOOTER END ============> */
+
+/* <============= RESPONSIVE START ============> */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 992px;
+  }
+
+  nav ul li a {
+    padding: 12px;
+    font-size: 18px;
+  }
+  .content {
+    padding-top: 100px;
+    padding-bottom: 119px;
+  }
+  header P {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .box h2 {
+    font-size: 20px;
+  }
+  .box p {
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+  .col-padding {
+    padding: 20px;
+  }
+  footer a {
+    font-size: 16px;
+    line-height: 3;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+}
