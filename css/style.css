@@ -140,7 +140,6 @@ footer a {
   color: rgb(9, 10, 70);
   font-size: 19px;
   font-weight: 400;
-  line-height: 3;
 }
 footer p {
   font-size: 16px;
@@ -156,9 +155,26 @@ footer ul :hover {
   padding: 27px;
 }
 
-.col-content ul {
-  line-height: 2;
-  font-size: 18px;
+.col-content{}
+
+.col-content ul li{
+
+}
+.col-content ul{
+
+}
+.col-content ul li a{
+  line-height: 2.4;
+  font-size: 16px;
+}
+.col-title{
+
 }
 
+.col-title a{
+
+}
+.col-title h3{
+  font-size: 18px;
+}
 /* <============= FOOTER END ============> */
