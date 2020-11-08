@@ -103,7 +103,7 @@ header P {
   font-size: 21px;
 }
 
-.image {
+.big-img {
   max-width: 100%;
 }
 
@@ -131,22 +131,11 @@ footer {
   background-color: #f5f5fa;
 }
 
-.col-1 {
+.col {
   width: 25%;
   flex: 0 0 auto;
 }
-.col-2 {
-  width: 25%;
-  flex: 0 0 auto;
-}
-.col-3 {
-  width: 25%;
-  flex: 0 0 auto;
-}
-.col-4 {
-  width: 25%;
-  flex: 0 0 auto;
-}
+
 footer a {
   color: rgb(9, 10, 70);
   font-size: 19px;
@@ -167,70 +156,9 @@ footer ul :hover {
   padding: 27px;
 }
 
-.col-2-content ul {
-  line-height: 2;
-  font-size: 18px;
-}
-.col-3-content ul {
-  line-height: 2;
-  font-size: 18px;
-}
-.col-4-content ul {
+.col-content ul {
   line-height: 2;
   font-size: 18px;
 }
 
 /* <============= FOOTER END ============> */
-
-/* <============= RESPONSIVE START ============> */
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .container {
-    width: 992px;
-  }
-
-  nav ul li a {
-    padding: 12px;
-    font-size: 18px;
-  }
-  .content {
-    padding-top: 100px;
-    padding-bottom: 119px;
-  }
-  header P {
-    font-size: 17px;
-    line-height: 28px;
-  }
-
-  .box h2 {
-    font-size: 20px;
-  }
-  .box p {
-    line-height: 32px;
-    font-size: 16px;
-  }
-
-  .col-padding {
-    padding: 20px;
-  }
-  footer a {
-    font-size: 16px;
-    line-height: 3;
-  }
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-}
