@@ -57,15 +57,17 @@ nav ul {
   flex-wrap: wrap;
 }
 
-nav ul li :hover {
-  color: rgb(175, 64, 64);
-}
+
 
 nav ul li a {
   text-transform: uppercase;
   padding: 30px;
   font-size: 22px;
   font-family: "Ubuntu", sans-serif;
+}
+
+nav ul li :hover {
+  color: rgb(175, 64, 64);
 }
 
 .content {
@@ -122,6 +124,10 @@ header P {
   flex-wrap: wrap;
 }
 
+.small-img{
+  max-width: 100%;
+}
+
 /* <============= SECTION END ============> */
 
 /* <============= FOOTER START ============> */
@@ -151,6 +157,8 @@ footer ul :hover {
   color: brown;
 }
 
+
+
 .col-padding {
   padding: 27px;
 }
@@ -177,4 +185,7 @@ footer ul :hover {
 .col-title h3{
   font-size: 18px;
 }
+
+.foot-banner{}
+.foot-banner img{}
 /* <============= FOOTER END ============> */
